@@ -64,8 +64,9 @@ p {
 #navbar {
     background-color: #333; /* Black background color */
     position: fixed; /* Make it stick/fixed */
-    top: -60px; /* Hide the navbar 50 px outside of the top view */
+    top: -3em; /* Hide the navbar 50 px outside of the top view */
     width: 100%; /* Full width */
+    font-size: 3em;
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
 
