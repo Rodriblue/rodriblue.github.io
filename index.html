@@ -16,7 +16,7 @@
         <div class="progress-bar" id="myBar"></div>
       </div>
         <a href="#showcase">Inicio</a>
-        <a href="#section-b">Piedra</a>
+        <a href="#articulo-1">Piedra</a>
         <a href="#">Papel</a>
         <a href="#">Tijera</a>
     </nav>
@@ -40,9 +40,85 @@
       </div>
     </section>
 
-    <!-- SECCION B -->
-    <section class="section-b">
+    <!-- SECCION B  ARTICULO 1 -->
+    <section class="section-b" id="articulo-1">
       <h2>Piedra</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore fugiat perspiciatis dolorem eum eos. Vel fuga itaque perferendis voluptas adipisci, modi reprehenderit dolore error veritatis deserunt sequi nostrum aliquam illum.</p>
+      <ul class="grid">
+        <li>
+          <div class="card">
+            <img src="https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+            <div class="card-content">
+              <h3>Obra nueva</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum cumque dolores cupiditate dolor molestiae tempore ducimus reiciendis, quasi beatae iure.</p>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="card">
+            <img src="https://images.pexels.com/photos/735319/pexels-photo-735319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+            <div class="card-content">
+              <h3>Reformas integrales</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum cumque dolores cupiditate dolor molestiae tempore ducimus reiciendis, quasi beatae iure.</p>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="card">
+            <img src="https://images.pexels.com/photos/959308/pexels-photo-959308.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+            <div class="card-content">
+              <h3>Rehabilitaciones</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum cumque dolores cupiditate dolor molestiae tempore ducimus reiciendis, quasi beatae iure.</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- SECCION B ARTICULO 2 -->
+
+    <section class="section-b" id="articulo-2">
+      <h2>Papel</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore fugiat perspiciatis dolorem eum eos. Vel fuga itaque perferendis voluptas adipisci, modi reprehenderit dolore error veritatis deserunt sequi nostrum aliquam illum.</p>
+      <ul class="grid">
+        <li>
+          <div class="card">
+            <img src="https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+            <div class="card-content">
+              <h3>Obra nueva</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum cumque dolores cupiditate dolor molestiae tempore ducimus reiciendis, quasi beatae iure.</p>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="card">
+            <img src="https://images.pexels.com/photos/735319/pexels-photo-735319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+            <div class="card-content">
+              <h3>Reformas integrales</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum cumque dolores cupiditate dolor molestiae tempore ducimus reiciendis, quasi beatae iure.</p>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="card">
+            <img src="https://images.pexels.com/photos/959308/pexels-photo-959308.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+            <div class="card-content">
+              <h3>Rehabilitaciones</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum cumque dolores cupiditate dolor molestiae tempore ducimus reiciendis, quasi beatae iure.</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- SECCION B ARTICULO 3 -->
+
+    <section class="section-b" id="articulo-3">
+      <h2>Tijera</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore fugiat perspiciatis dolorem eum eos. Vel fuga itaque perferendis voluptas adipisci, modi reprehenderit dolore error veritatis deserunt sequi nostrum aliquam illum.</p>
       <ul class="grid">
         <li>
@@ -79,28 +155,24 @@
 
     <!-- SECCION C -->
     <section id="section-c" class="grid">
-      <div class="container">
-        <form action="action_page.php">
+      <div class="content-wrap">
+        <div class="container">
+          <form action="action_page.php">
+            <label for="fname">Nombre</label>
+            <input type="text" id="fname" name="firstname" placeholder="Nombre..">
 
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">Apellidos</label>
+            <input type="text" id="lname" name="lastname" placeholder="Apellidos..">
 
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="country">E-Mail</label>
+            <input type="text" id="imail" name="imail" placeholder="Correo electrónico..">
 
-          <label for="country">Country</label>
-          <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
-          </select>
+            <label for="subject">Asunto</label>
+            <textarea id="subject" name="subject" placeholder="Explicar las necesidades de la obra.." ></textarea>
 
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-          <input type="submit" value="Submit">
-
-        </form>
+            <input type="submit" value="Enviar">
+          </form>
+        </div>
       </div>
     </section>
     <!-- SECCION D -->

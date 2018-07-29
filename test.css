@@ -125,6 +125,16 @@ p {
 
 /* Section B */
 
+#articulo-2 {
+  background-color: #444;
+  padding-top: 10px;
+}
+
+#articulo-3 {
+  background-color: #555;
+  padding-top: 10px;
+}
+
 .section-b {
   padding: 0em 2em 1em;
 }
@@ -212,6 +222,9 @@ p {
     grid-column: span 2;
   }
 
+  .section-b {
+  }
+
   .section-b h2{
     width: 100%;
     padding: 0;
@@ -224,7 +237,7 @@ p {
   }
 
   .section-b li {
-    width: 31%;
+    width: 30%;
   }
 
   #section-c {
@@ -271,4 +284,8 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 1.5em;
+}
+
+.container textarea {
+  height: 200px;
 }
