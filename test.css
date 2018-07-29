@@ -222,9 +222,35 @@ p {
   text-decoration: none;
 }
 
+
+
 /* Media Queries */
 
-@media (min-width: 1100px) {
+/* STYLE FOR SMALL DEVICES */
+
+@media (min-width: 300px){
+  .card-slider .card-content-2 {
+    width: 300px;
+    padding: 0;
+  }
+}
+
+/* STYLE FOR MEDIUM DEVICES */
+
+@media (min-width: 600px){
+  .card-slider .card-content-2 {
+    width: 380px;
+    padding: 0;
+  }
+}
+/* STYLE FOR LARGE DEVICES */
+
+@media (min-width: 700px) {
+
+  .card-slider .card-content-2 {
+    width: 500px;
+    padding: 0;
+  }
 
   .card-slider .card{
     background-color: #fff;
@@ -276,11 +302,6 @@ p {
     width: 30%;
   }
 
-  .card-slider .card-content-2 {
-    width: 350px;
-    padding: 0;
-  }
-
   #section-c {
     display: flex;
     justify-content: space-around;
@@ -288,6 +309,15 @@ p {
   }
 
 
+}
+
+/* STYLE FOR VERY LARGE DEVICES */
+
+@media (min-width: 1000px) {
+  .card-slider .card-content-2 {
+    
+    padding: 0;
+  }
 }
 
 /* Formulario */
