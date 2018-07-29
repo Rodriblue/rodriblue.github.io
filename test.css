@@ -199,7 +199,7 @@ p {
 }
 
 .card-slider .card-content-2 {
-  width: 400px;
+  width: 700px;
   padding: 0;
 }
 
@@ -274,6 +274,11 @@ p {
 
   .section-b li {
     width: 30%;
+  }
+
+  .card-slider .card-content-2 {
+    width: 350px;
+    padding: 0;
   }
 
   #section-c {
