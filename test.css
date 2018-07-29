@@ -62,21 +62,22 @@ p {
 }
 
 #navbar {
+    margin: 0;
     background-color: #333; /* Black background color */
     position: fixed; /* Make it stick/fixed */
-    top: -3em; /* Hide the navbar 50 px outside of the top view */
+    top: -70px; /* Hide the navbar 50 px outside of the top view */
     width: 100%; /* Full width */
-    font-size: 3em;
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
 
 /* Style the navbar links */
 #navbar a {
+    margin: 0;
     float: left;
     display: block;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 15px 15px;
     text-decoration: none;
 }
 
@@ -99,7 +100,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 670px;
+  height: 700px;
   z-index: -1;
   opacity: 0.4;
 }
