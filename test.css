@@ -181,6 +181,33 @@ p {
   background-color: #fff;
 }
 
+/* SECCION CARD SLIDER */
+
+
+.card-slider {
+  display: flex;
+  overflow-x: auto;
+  background-color: #333;
+}
+
+.card-slider .card-2{
+  display:  inline-block;
+  background-color: #fff;
+  color: #333;
+  margin: 10px;
+  padding: 10px;
+}
+
+.card-slider .card-content-2 {
+  width: 400px;
+  padding: 0;
+}
+
+.card-slider::-webkit-scrollbar {
+  display: none;
+}
+
+
 /* Footer */
 
 #main-footer {
@@ -198,6 +225,15 @@ p {
 /* Media Queries */
 
 @media (min-width: 1100px) {
+
+  .card-slider .card{
+    background-color: #fff;
+    color: #333;
+    margin: 10px;
+    min-width: 30%;
+    padding: 10px;
+  }
+
   .grid {
     display: grid;
     grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
