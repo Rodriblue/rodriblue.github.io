@@ -1,4 +1,4 @@
-/* General Styles */
+/* General Styles **********************************/
 
 body, html {
   height: 100%;
@@ -50,7 +50,7 @@ p {
   color: #333;
 }
 
-/* Header Showcase */
+/* Header Showcase **********************************/
 
 /* The progress container (grey background) */
 .progress-container {
@@ -93,7 +93,7 @@ p {
 }
 
 #showcase {
-  min-height: 550px;
+  height: 75%;
   color: #fff;
   text-align: center;
 }
@@ -106,7 +106,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 700px;
+  height: 75%;
   opacity: 0.4;
   z-index: -1;
 }
@@ -121,7 +121,7 @@ p {
   padding: 0 1.5em;
 }
 
-/* Section A */
+/* Section A **********************************/
 
 #section-a {
   background: #eaeaea;
@@ -129,7 +129,8 @@ p {
   padding-bottom: 2em;
 }
 
-/* Section B */
+/* Section B **********************************/
+
 
 #articulo-2 {
   background-color: #444;
@@ -165,7 +166,7 @@ p {
   padding: 1.5em;
 }
 
-/* Section C */
+/* Section C **********************************/
 
 #section-c {
   background: #fff;
@@ -173,7 +174,7 @@ p {
   padding: 2em;
 }
 
-/* Section D / Boxes */
+/* Section D / Boxes **********************************/
 
 #section-d .box {
   padding: 2em;
@@ -187,21 +188,31 @@ p {
   background-color: #fff;
 }
 
-/* SECCION CARD SLIDER */
+/* SECCION CARD SLIDER **********************************/
 
+#articulo-2 {
+  margin: 0;
+  padding: 0;
+}
 
 .card-slider {
+  margin: 0;
+  padding: 0;
+  width: 100%;
   display: flex;
   overflow-x: auto;
   background-color: #333;
 }
 
 .card-slider .card-2{
+  width: 100%;
   display:  inline-block;
   background-color: #fff;
   color: #333;
   margin: 10px;
   padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .card-slider .card-content-2 {
@@ -214,7 +225,7 @@ p {
 }
 
 
-/* Footer */
+/* Footer **********************************/
 
 #main-footer {
   padding: 2em;
@@ -230,12 +241,17 @@ p {
 
 
 
-/* Media Queries */
+/* Media Queries **********************************/
 
 /* STYLE FOR VERTICAL DEVICES (Selfphones, tablets...)
 dispositivos que se leen en vertical
 */
 @media (max-aspect-ratio: 12/9) {
+
+  #articulo-2 {
+    padding: 0;
+    margin: 0;
+  }
 
   #showcase{
     height: 100%;
@@ -265,6 +281,7 @@ dispostivos que se leen en horizontal
 */
 
 @media (min-aspect-ratio: 12/9){
+
   .grid {
     display: grid;
     grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
@@ -337,7 +354,7 @@ dispostivos que se leen en horizontal
 
 
 
-/* Formulario */
+/* Formulario **********************************/
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
