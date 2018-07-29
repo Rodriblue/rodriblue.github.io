@@ -230,9 +230,6 @@ p {
   dispositivos que se leen en vertical
  */
   @media (max-aspect-ratio: 12/9) {
-  body {
-    color: blue;
-  }
 
   @media (max-width: 720px){
     .card-slider .card-content-2 {
@@ -256,9 +253,6 @@ p {
       }
     }
     @media (min-width: 1401px){
-      body {
-        color: red;
-      }
       .card-slider .card-content-2 {
         width: 400px;
         padding: 0;
