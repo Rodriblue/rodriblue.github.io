@@ -38,7 +38,6 @@ p {
   display: inline-block;
   background: #333;
   color: #fff;
-  font-size: 30px;
   text-decoration: none;
   padding: 1em 2em;
   border: 1px solid #666;
@@ -120,8 +119,11 @@ p {
     margin: auto;
     padding: 20px;
     width: 100%;
-    font-size: 12vh;
+    font-size: 4em;
     text-shadow: 2vh 2vh 4vh $black;
+}
+#section-first .btn {
+  font-size: 0.3em;
 }
 
 .content-wrap {
@@ -255,15 +257,6 @@ p {
 dispositivos que se leen en vertical
 */
 
-@media (min-width: 320px) and (max-width: 480px) {
-
-body {
-  color: red;
-}
-
-}
-
-/*
 @media (max-aspect-ratio: 12/9) {
 
   #articulo-2 {
@@ -280,11 +273,10 @@ body {
   }
 }
 
-*/
+
 /* STYLE FOR HORIZONTAL DEVICES (laptops and PCs)
 dispostivos que se leen en horizontal
 */
-/*
 @media (min-aspect-ratio: 12/9){
 
   .grid {
