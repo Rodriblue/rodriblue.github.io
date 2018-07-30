@@ -25,12 +25,12 @@ h1,
 h2,
 h3 {
   margin: 0;
-  padding: 2em 0;
+  padding: 1em 0;
 }
 
 p {
   margin: 0;
-  padding: 2em 0;
+  padding: .5em;
 }
 
 
@@ -144,7 +144,6 @@ p {
 
 #articulo-2 {
   background-color: #444;
-  padding-top: 10px;
 }
 
 #articulo-3 {
@@ -153,11 +152,11 @@ p {
 }
 
 .section-b {
-  padding: 0em 2em 1em;
+  padding: 0em 0.8em 1em;
 }
 
 .section-b h2{
-  padding-top: 40px;
+  padding: 1em;
 }
 
 .section-b ul {
@@ -181,7 +180,6 @@ p {
 #section-c {
   background: #fff;
   color: #333;
-  padding: 2em;
 }
 
 /* Section D / Boxes **********************************/
@@ -200,9 +198,18 @@ p {
 
 /* SECCION CARD SLIDER **********************************/
 
-#articulo-2 {
-  margin: 0;
+#articulo-2{
+  width: 100%;
   padding: 0;
+}
+
+#articulo-2 h2{
+  margin: 0;
+  padding-top: 1em;
+}
+
+#articulo-2 p{
+  padding: 0.5em 2.5em 0.5em;
 }
 
 .card-slider {
@@ -259,7 +266,7 @@ dispositivos que se leen en vertical
 
 @media (max-aspect-ratio: 12/9) {
 
-  #articulo-2 {
+  #articulo-2 .card-slider{
     padding: 0;
     margin: 0;
   }
