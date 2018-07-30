@@ -111,10 +111,9 @@ p {
   width: 100%;
   justify-content: center;
   position: relative;
-  height: 100vh;
+  height: 100%;
   z-index: -1;
 }
-
 
 #section-first .bg-image h1 {
     margin: auto;
