@@ -6,7 +6,8 @@ body, html, main {
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  font-family:  Arial, Helvetica, sans-serif;
   background: #333;
   color: #fff;
   font-size: 1.1em;
@@ -24,12 +25,12 @@ h1,
 h2,
 h3 {
   margin: 0;
-  padding: 1em 0;
+  padding: 2em 0;
 }
 
 p {
   margin: 0;
-  padding: 1em 0;
+  padding: 2em 0;
 }
 
 
@@ -253,6 +254,16 @@ p {
 /* STYLE FOR VERTICAL DEVICES (Selfphones, tablets...)
 dispositivos que se leen en vertical
 */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+body {
+  color: red;
+}
+
+}
+
+/*
 @media (max-aspect-ratio: 12/9) {
 
   #articulo-2 {
@@ -269,11 +280,11 @@ dispositivos que se leen en vertical
   }
 }
 
-
+*/
 /* STYLE FOR HORIZONTAL DEVICES (laptops and PCs)
 dispostivos que se leen en horizontal
 */
-
+/*
 @media (min-aspect-ratio: 12/9){
 
   .grid {
