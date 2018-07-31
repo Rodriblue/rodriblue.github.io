@@ -85,7 +85,8 @@ p {
   margin: 0;
   background-color: #333; /* Black background color */
   position: fixed; /* Make it stick/fixed */
-  top: -70px; /* Hide the navbar 50 px outside of the top view */
+  top: -10px;
+  /*top: -70px; /* Hide the navbar 50 px outside of the top view */
   width: 100%; /* Full width */
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
