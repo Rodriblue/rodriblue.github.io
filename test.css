@@ -117,7 +117,7 @@ p {
 #section-first .bg-image {
   overflow: hidden;
   background: #333
-  url("https://images.pexels.com/photos/38070/pexels-photo-38070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  url(foto-portada-large.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
