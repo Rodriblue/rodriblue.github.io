@@ -227,7 +227,6 @@ p {
   background-color: #fff;
   color: #333;
   margin: 10px;
-  padding: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
@@ -269,13 +268,21 @@ dispositivos que se leen en vertical
   #articulo-2 .card-slider{
     padding: 0;
     margin: 0;
+    width: 100%;
+  }
+
+  #articulo-2 .card-2{
+    max-width: 95%;
+  }
+
+  #articulo-2 .card-2 .card-content-2{
+    max-width: 100%;
   }
 
 
-  @media (max-width: 720px){
-    .card-slider .card-content-2 {
-      width: 500px;
-      padding: 0;
+  @media (min-width: 450px){
+    #articulo-2 .card-2{
+      max-width: 60%;
     }
   }
 }
@@ -292,7 +299,7 @@ dispostivos que se leen en horizontal
   }
   @media (max-width: 1400px){
     .card-slider .card-content-2 {
-      width: 300px;
+      width: 400px;
       padding: 0;
     }
   }
