@@ -117,7 +117,7 @@ p {
 #section-first .bg-image {
   overflow: hidden;
   background: #333
-  url(foto-portada-large.jpeg);
+  url(foto-portada-large-min.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
