@@ -50,6 +50,21 @@ p {
   color: #333;
 }
 
+.boton-leermas {
+  margin: 0.5em;
+  padding: 0.5em;
+  color: #777;
+  text-decoration: none;
+  border: 2px solid #777;
+}
+
+.boton-leermas:hover {
+  background-color: #777;
+  color: white;
+  text-decoration: none;
+  border: 2px solid #777;
+}
+
 /* Header Showcase **********************************/
 
 /* The progress container (grey background) */
@@ -233,6 +248,7 @@ p {
 
 .card-slider .card-content-2 {
   width: 700px;
+  margin-bottom: 1.5em;
   padding: 0;
 }
 
@@ -278,6 +294,7 @@ dispositivos que se leen en vertical
   #articulo-2 .card-2 .card-content-2{
     max-width: 100%;
   }
+
 
 
   @media (min-width: 450px){
