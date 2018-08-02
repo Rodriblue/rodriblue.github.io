@@ -1,0 +1,155 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  background-color: #F9F9F9;
+  padding: 0;
+  margin: 0;
+}
+header{
+  padding-top:15px;
+  min-height:70px;
+  background-color: #3A3A3A;
+  border-bottom:#F78300 4px solid;
+}
+header img{
+
+  padding: 6px 20px 0 20px;
+  width: 210px;
+}
+.container{
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+ul{
+  margin:0;
+  padding:0;
+}
+header ul{
+  padding: 5px;
+}
+header li a{
+  margin: 0;
+  text-transform: uppercase;
+  color: white;
+  text-decoration:none;
+  padding: 0 20px 0 20px;
+  font-size: 16px;
+  font-weight:bold;
+}
+header .current a{
+  color:#F78300;
+}
+header a:hover{
+  color:#cccccc;
+  font-weight: lighter;
+}
+header li{
+  float:left;
+  display:inline;
+}
+header #logotipobanner{
+  float:left;
+}
+header #logotipobanner img{
+  margin:0;
+}
+header nav{
+  float:right;
+  margin-top:10px;
+}
+#newsletter{
+  padding:15px;
+  color:#ffffff;
+  background:#3A3A3A
+}
+
+#newsletter h1{
+  float:left;
+}
+
+#newsletter form {
+  float:right;
+  margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+#newsletter button, .quote button{
+  display:block;
+  width:100%;
+}
+
+#newsletter form input[type="email"], .quote input, .quote textarea{
+  width:100%;
+  margin-bottom:5px;
+}
+
+.button1{
+  height:38px;
+  background:#F78300;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+  font-size: 16px;
+  font-weight:bold;
+}
+
+
+.articulo-1{
+  width: 40%;
+  float: left;
+  align-items: center;
+}
+
+.articulo-2 {
+  width: 58%;
+  float: left;
+  text-align: left;
+  padding-left: 2%;
+}
+
+.articulos{
+  background-color: lightgrey;
+}
+
+@media screen and (max-width:800px) {
+  .articulo-1, .articulo-2 {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+
+  .container{
+    width: 100%;
+  }
+
+  header nav{
+    margin: auto;
+    width: 100%;
+    float: none;
+  }
+  #logotipobanner{
+    margin:auto;
+    width: 100%;
+  }
+  header img{
+    width: 300px;
+  }
+
+  #newsletter h1{
+    text-align: center;
+    float: none;
+  }
+
+  #newsletter form{
+    float: none;
+  }
+
+  #newsletter button, .quote button{
+    width: auto;
+    margin: auto;
+  }
+
+}

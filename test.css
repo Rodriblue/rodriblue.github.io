@@ -30,7 +30,7 @@ h3 {
 
 p {
   margin: 0;
-  padding: .5em;
+  padding: .5em 0;
 }
 
 
@@ -150,6 +150,7 @@ p {
 /* Section A **********************************/
 
 #section-a {
+  padding-top: 70px;
   background: #eaeaea;
   color: #333;
   padding-bottom: 2em;
@@ -211,6 +212,77 @@ p {
 #section-d .box:last-child {
   background-color: #fff;
 }
+
+/* section-article */
+
+#section-article-nuevaconstruccion {
+  margin: auto;
+  padding: 2em;
+  color: #eaeaea;
+}
+
+#section-article-reformasintegrales {
+  margin: auto;
+  padding: 2em;
+  background-color: #eaeaea;
+  color: #333;
+}
+
+.article-img {
+  padding-top: 1em;
+  grid-column: 2 / 3;
+  border-radius: 10px;
+}
+
+.article-img img {
+  border-radius: 4px;
+}
+
+.article-text {
+  padding: 0 1em 0 1em;
+  text-align: left;
+  grid-column: 3 / 4;
+}
+
+.article-presupuesto {
+  margin: 2em auto auto auto;
+  grid-column: 2 / 4;
+  text-align: center;
+  width: 20%;
+  padding: 0.5em;
+  color: #eaeaea;
+  text-decoration: none;
+  border: 2px solid #eaeaea;
+  border-radius: 4px;
+  }
+
+  .article-presupuesto:hover {
+  background-color: #eaeaea;
+  color: #333;
+  text-decoration: none;
+  border: 2px solid #eaeaea;
+  }
+
+  .article-presupuesto-osc {
+    margin: 2em auto auto auto;
+    grid-column: 2 / 4;
+    text-align: center;
+    width: 20%;
+    padding: 0.5em;
+    color: #333;
+    text-decoration: none;
+    border: 2px solid #333;
+    border-radius: 4px;
+    }
+
+    .article-presupuesto-osc:hover {
+    background-color: #333;
+    color: #eaeaea;
+    text-decoration: none;
+    border: 2px solid #333;
+    }
+
+
 
 /* SECCION CARD SLIDER **********************************/
 
