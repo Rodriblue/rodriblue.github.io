@@ -20,7 +20,6 @@ picture , img {
   width: 100%;
   height: auto;
 }
-
 h1,
 h2,
 h3 {
@@ -32,7 +31,6 @@ p {
   margin: 0;
   padding: .5em 0;
 }
-
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
@@ -139,6 +137,7 @@ visibility: hidden!important;
   height: 100vh;
 }
 
+
 #section-first .bg-image {
   overflow: hidden;
   background: #333
@@ -150,9 +149,16 @@ visibility: hidden!important;
   align-items: center;
   width: 100%;
   justify-content: center;
-  position: relative;
+  position: absolute;
+  top: 0;
   height: 100%;
   z-index: -1;
+}
+#section-first-text {
+  position: static;
+  padding-top: 23vh;
+  width: 100%;
+  font-size: 2em;
 }
 
 #section-first .bg-image h1 {
@@ -163,7 +169,7 @@ visibility: hidden!important;
     text-shadow: 2vh 2vh 4vh $black;
 }
 #section-first .btn {
-  font-size: 0.3em;
+  font-size: 0.5em;
 }
 
 .content-wrap {
@@ -360,7 +366,16 @@ visibility: hidden!important;
   padding: 0;
 }
 
+/*Section presupuesto ***********************/
 
+#presupuesto-izq {
+  grid-column: 2/3;
+}
+
+#presupuesto-der {
+  padding: 1em;
+  grid-column: 3/4;
+}
 
 /* Footer **********************************/
 
@@ -418,6 +433,11 @@ dispositivos que se leen en vertical
 dispostivos que se leen en horizontal
 */
 @media (min-aspect-ratio: 12/9){
+
+  #section-first-text {
+    top: 30vh;
+    font-size: 3em;
+  }
 
   .grid {
     display: grid;
