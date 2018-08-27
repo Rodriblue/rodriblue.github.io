@@ -1,5 +1,14 @@
 /* General Styles **********************************/
 
+/* Color
+strong: #373737
+white: #F4F4F4
+silk: #DCD0C0
+
+*/
+
+
+
 body, html, main {
   min-height: 100%;
 }
@@ -8,7 +17,7 @@ body {
   margin: 0;
   padding: 0;
   font-family:  Arial, Helvetica, sans-serif;
-  background: #333;
+  background: #F4F4F4;
   color: #fff;
   font-size: 1.1em;
   line-height: 1.5;
@@ -31,6 +40,14 @@ p {
   margin: 0;
   padding: .5em 0;
 }
+
+hr {
+  background-color: #DCD0C0;
+}
+
+
+/* SCROLL */
+
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
@@ -75,68 +92,45 @@ visibility: hidden!important;
 .boton-leermas {
   margin: 0.5em;
   padding: 0.5em;
-  color: #777;
+  color: #373737;
   text-decoration: none;
-  border: 2px solid #777;
+  border: 2px solid #373737;
 }
 
 .boton-leermas:hover {
-  background-color: #777;
+  background-color: #373737;
   color: white;
   text-decoration: none;
-  border: 2px solid #777;
+  border: 2px solid #373737;
 }
 
 /* Header Showcase **********************************/
 
-/* The progress container (grey background) */
-.progress-container {
-  width: 100%;
-  height: 8px;
-  background: #ccc;
-}
-
-/* The progress bar (scroll indicator) */
-.progress-bar {
-  height: 8px;
-  background: #4caf50;
-  width: 0%;
-}
-
 #navbar {
-  margin: 0;
-  background-color: #333; /* Black background color */
+  background-color: #373737; /* Black background color */
   position: fixed; /* Make it stick/fixed */
-  top: -10px;
-  /*top: -70px; /* Hide the navbar 50 px outside of the top view */
   width: 100%; /* Full width */
-  transition: top 0.3s; /* Transition effect when sliding down (and up) */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* Style the navbar links */
 #navbar a {
-  margin: 0;
   float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 15px 15px;
+  color: #F4F4F4;
+  padding: 0.7em;
   text-decoration: none;
 }
 
 #navbar a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #F4F4F4;
+  color: #373737;
 }
 
 /* Section First ******************************/
 
 #section-first {
-  width: 100%;
   height: 100vh;
 }
-
 
 #section-first .bg-image {
   overflow: hidden;
@@ -154,20 +148,17 @@ visibility: hidden!important;
   height: 100%;
   z-index: -1;
 }
+
 #section-first-text {
-  position: static;
   padding-top: 23vh;
   width: 100%;
   font-size: 2em;
 }
 
-#section-first .bg-image h1 {
-    margin: auto;
-    padding: 20px;
-    width: 100%;
-    font-size: 4em;
+#section-first h1 {
     text-shadow: 2vh 2vh 4vh $black;
 }
+
 #section-first .btn {
   font-size: 0.5em;
 }
@@ -180,26 +171,28 @@ visibility: hidden!important;
 /* Section A **********************************/
 
 #section-a {
-  padding-top: 70px;
   background: #eaeaea;
   color: #333;
-  padding-bottom: 2em;
+  padding-bottom: 1.5em;
+}
+
+#section-a a {
+  position: relative;
+  top: -2.4em;
 }
 
 /* Section B **********************************/
 
-
-#articulo-2 {
-  background-color: #444;
-}
-
-#articulo-3 {
-  background-color: #555;
-  padding-top: 10px;
-}
-
 .section-b {
-  padding: 0em 0.8em 1em;
+  padding: 0em 1em 1em;
+}
+
+#articulo-1 {
+  color: #373737;
+}
+
+.section-b p{
+  padding: 1em 1em 2em;
 }
 
 .section-b h2{
@@ -213,6 +206,8 @@ visibility: hidden!important;
 }
 
 .section-b li {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
   margin-bottom: 1em;
   background: #fff;
   color: #333;
@@ -220,6 +215,41 @@ visibility: hidden!important;
 
 .card-content {
   padding: 1.5em;
+}
+
+#articulo-2 {
+  background-color: #F4F4F4;
+  color: #373737;
+}
+
+.card-slider {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  overflow-x: auto;
+  background-color: #333;
+}
+
+.card-slider .card-2{
+  width: 100%;
+  display:  inline-block;
+  background-color: #fff;
+  color: #333;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.card-slider .card-content-2 {
+  width: 700px;
+  margin-bottom: 1.5em;
+  padding: 0;
+}
+
+#articulo-3 {
+  background-color: #555;
+  padding-top: 10px;
 }
 
 /* Section C **********************************/
@@ -325,46 +355,6 @@ visibility: hidden!important;
       }
 
 
-/* SECCION CARD SLIDER **********************************/
-
-#articulo-2{
-  width: 100%;
-  padding: 0;
-}
-
-#articulo-2 h2{
-  margin: 0;
-  padding-top: 1em;
-}
-
-#articulo-2 p{
-  padding: 0.5em 2.5em 0.5em;
-}
-
-.card-slider {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  display: flex;
-  overflow-x: auto;
-  background-color: #333;
-}
-
-.card-slider .card-2{
-  width: 100%;
-  display:  inline-block;
-  background-color: #fff;
-  color: #333;
-  margin: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-}
-
-.card-slider .card-content-2 {
-  width: 700px;
-  margin-bottom: 1.5em;
-  padding: 0;
-}
 
 /*Section presupuesto ***********************/
 
@@ -417,6 +407,14 @@ dispositivos que se leen en vertical
 
   #articulo-2 .card-2 .card-content-2{
     max-width: 100%;
+  }
+
+  .content-wrap {
+    padding: 1em;
+  }
+
+  .section-b p{
+    padding: 0em 0em 1em 0em;
   }
 
 
